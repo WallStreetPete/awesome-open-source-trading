@@ -146,12 +146,16 @@ TOP_STRATEGIES = [
 ]
 
 
-def tool_block(items: list[dict]) -> list[str]:
+def tool_table(items: list[dict]) -> list[str]:
     out = ["| Project | ★ | Lang | | What it's good at |", "|---|---:|---|:-:|---|"]
     for t in items:
         out.append(f"| [**{cell(t['name'])}**]({t['url']}) | {stars(t.get('stars'))} | {cell(t.get('language'))} | "
                    f"{status(t.get('maintained'))} | {cell(t.get('good_at'))} |")
-    out += ["", f"<details><summary>Explainers ({len(items)})</summary>", ""]
+    return out + [""]
+
+
+def explainers(items: list[dict]) -> list[str]:
+    out = []
     for t in items:
         out += [f"**[{clean(t['name'])}]({t['url']})** · {clean(t.get('language')) or '—'} · ★ {stars(t.get('stars'))}"
                 f"{' · last push ' + clean(t['last_push']) if t.get('last_push') else ''}  ",
@@ -186,7 +190,7 @@ def main() -> None:
         "</div>", "",
         "Every project has a short explainer, what it is good at, and its limitations. Every paper lists its strategy, "
         "the return **as reported by the authors**, whether costs and out-of-sample testing were included, and how to "
-        "recreate it. Machine-readable data lives in [`data/`](data).", "",
+        "recreate it. Full explainers and recreation notes are in [`docs/`](docs); machine-readable data is in [`data/`](data).", "",
         "> **Status legend:** 🟢 active · 🟡 slow · 🟠 stale · 🔴 archived · ⚪ unknown. Stars and activity are a "
         f"snapshot from {SNAPSHOT}.", "",
         "## Contents", "",
@@ -211,8 +215,13 @@ def main() -> None:
         L += [f"## {title}", "", intro.strip(), "", "**Key takeaways**", ""]
         L += [f"- {t}" for t in takeaways] + [""]
         order = [c for c in cats if c in sec] + [c for c in sec if c not in cats]
+        doc = [f"# {title}", "", "[← back to the main list](../README.md)", "", intro.strip(), ""]
         for c in order:
-            L += [f"### {cats.get(c, c.replace('-', ' ').title())}", ""] + tool_block(sec[c])
+            name = cats.get(c, c.replace('-', ' ').title())
+            L += [f"### {name}", "", f"<sub>📖 [Full explainers & limitations →](docs/{key}.md#{anchor(name)})</sub>", ""] + tool_table(sec[c])
+            doc += [f"## {name}", ""] + explainers(sec[c])
+        (ROOT / "docs").mkdir(exist_ok=True)
+        (ROOT / "docs" / f"{key}.md").write_text("\n".join(doc), encoding="utf-8")
         L += ["[⬆ back to top](#contents)", ""]
 
     L += ["## Strategy research papers", "",
@@ -233,12 +242,15 @@ def main() -> None:
         L.append(f"| {i} | **{s}** | {why} | {ref} |")
     L += [""]
 
+    pdoc = ["# Strategy research papers: how to recreate", "", "[← back to the main list](../README.md)", "",
+            "Returns are as reported by the authors. Notes flag costs, out-of-sample status and other caveats.", ""]
     by_pc = defaultdict(list)
     for p in PAPERS:
         by_pc[p.get("category") or "other"].append(p)
     for c in [k for k in PAPER_CATS if k in by_pc] + [k for k in by_pc if k not in PAPER_CATS]:
         ps = sorted(by_pc[c], key=lambda p: -int(p.get("year") or 0))
-        L += [f"### {PAPER_CATS.get(c, c)}", "",
+        pname = PAPER_CATS.get(c, c)
+        L += [f"### {pname}", "", f"<sub>🔧 [How to recreate each →](docs/papers.md#{anchor(pname)})</sub>", "",
               "| Year | Paper | Strategy | Reported return | Sharpe | Net of costs | OOS | Code |",
               "|---|---|---|---|---|:-:|:-:|:-:|"]
         for p in ps:
@@ -246,14 +258,15 @@ def main() -> None:
             L.append(f"| {cell(p.get('year'))} | [{cell(p.get('title'))}]({p['url']})<br><sub>{cell(p.get('venue'))}</sub> | "
                      f"{cell(p.get('strategy'))}<br><sub>{cell(p.get('universe_period'))}</sub> | {cell(p.get('reported_return'))} | "
                      f"{cell(p.get('reported_sharpe'))} | {yesno(p.get('costs_included'))} | {yesno(p.get('out_of_sample'))} | {code} |")
-        L += ["", f"<details><summary>How to recreate ({len(ps)})</summary>", ""]
+        L += [""]
+        pdoc += [f"## {pname}", ""]
         for p in ps:
-            L += [f"**[{clean(p.get('title'))}]({p['url']})** ({clean(p.get('year'))})  ",
+            pdoc += [f"**[{clean(p.get('title'))}]({p['url']})** ({clean(p.get('year'))})  ",
                   f"🔧 {clean(p.get('how_to_recreate')) or '—'}  "]
             if p.get("notes"):
-                L.append(f"⚠️ {clean(p.get('notes'))}")
-            L.append("")
-        L += ["</details>", ""]
+                pdoc.append(f"⚠️ {clean(p.get('notes'))}")
+            pdoc.append("")
+    (ROOT / "docs" / "papers.md").write_text("\n".join(pdoc), encoding="utf-8")
     L += ["[⬆ back to top](#contents)", ""]
 
     L += ["## Methodology & caveats", "",
