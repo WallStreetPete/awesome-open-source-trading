@@ -8322,5 +8322,24 @@
     "sources": [
       "https://github.com/HarrierOnChain/Drift-BET"
     ]
+  },
+  {
+    "name": "Espeon Trader",
+    "url": "https://github.com/kangykii/espeon",
+    "section": "live_trading",
+    "category": "execution-oms",
+    "subcategory": "experimental AI-assisted cTrader workbench",
+    "language": "Rust / TypeScript",
+    "stars": 1,
+    "last_push": "2026-09-29",
+    "license": "MIT",
+    "maintained": "active",
+    "explainer": "Espeon Trader is an experimental Windows desktop workbench for AI-assisted cTrader research. Its Tauri/Rust application combines cTrader Local MCP for account context, Open API for account and symbol metadata plus historical bars, and FIX for quotes and order execution. It also records experiment activity in a canonical event store and provides evidence retrieval across runs. The project is MIT licensed and publishes signed Windows updater artifacts.",
+    "good_at": "Exploring how AI workflows, broker metadata, execution adapters, and auditable experiment records fit together in a local cTrader application.",
+    "limitations": "Experimental and cTrader/Windows focused; it is not a trading strategy or a validated trading system, and users should evaluate it on a demo account.",
+    "sources": [
+      "https://github.com/kangykii/espeon",
+      "https://github.com/kangykii/espeon/releases/tag/v0.1.4"
+    ]
   }
 ]
