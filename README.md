@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-458-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![snapshot](https://img.shields.io/badge/snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-459-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![snapshot](https://img.shields.io/badge/snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -15,7 +15,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 
 ## Contents
 
-- 🧪 [Backtesting & quant research](#backtesting--quant-research) — 108 projects
+- 🧪 [Backtesting & quant research](#backtesting--quant-research) — 109 projects
 - ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 68 projects
 - 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
@@ -197,6 +197,7 @@ If you want the same strategy code to run in backtest and live, start with **Nau
 |---|---:|---|:-:|---|
 | [**OpenBB**](https://github.com/OpenBB-finance/OpenBB) | 73.3k | Python | 🟢 | Best as a unified, extensible data layer and research terminal to pair with a dedicated backtesting engine, rather than as the backtester itself. |
 | [**tidyquant (R)**](https://github.com/business-science/tidyquant) | 915 | R | 🟢 | Best for R users who want financial data retrieval and standard performance analytics in an idiomatic, pipe-friendly tidyverse workflow. |
+| [**Backtest Integrity Guard**](https://github.com/suguobin2021/backtest-integrity-guard) | 0 | Python | 🟢 | Useful as a lightweight pre-flight integrity layer for custom or framework-based backtests, especially when reproducibility and explicit execution timing matter. |
 
 ### Lists & other
 
