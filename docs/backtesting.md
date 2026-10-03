@@ -653,6 +653,12 @@ tidyquant bridges financial analysis and the tidyverse, bringing together market
 ✅ *Good at:* Best for R users who want financial data retrieval and standard performance analytics in an idiomatic, pipe-friendly tidyverse workflow.  
 ⚠️ *Limitations:* Not a backtesting engine itself; it's a data/analytics convenience layer that still needs quantstrat or custom logic for actual strategy simulation.
 
+**[Backtest Integrity Guard](https://github.com/suguobin2021/backtest-integrity-guard)** · Python · ★ 0 · last push 2026-10-03  
+Backtest Integrity Guard is a small dependency-free CLI for checking research assumptions before backtest metrics are trusted. It validates OHLCV geometry and timestamps, detects missing or irregular bars, checks signal-close to execution causality, and flags ambiguous same-bar stop/target exits. It can also produce deterministic JSON reports and SHA256 manifests that bind audit results to exact input files. The package is available on PyPI and is designed to sit alongside an existing backtesting engine rather than replace one.
+
+✅ *Good at:* Useful as a lightweight pre-flight integrity layer for custom or framework-based backtests, especially when reproducibility and explicit execution timing matter.  
+⚠️ *Limitations:* It does not simulate strategies, model fills or costs, or provide exchange calendars; session exceptions must be declared explicitly.
+
 </details>
 
 ## Lists & other

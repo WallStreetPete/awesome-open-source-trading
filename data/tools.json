@@ -8322,5 +8322,24 @@
     "sources": [
       "https://github.com/HarrierOnChain/Drift-BET"
     ]
+  },
+  {
+    "name": "Backtest Integrity Guard",
+    "url": "https://github.com/suguobin2021/backtest-integrity-guard",
+    "section": "backtesting",
+    "category": "data-tooling",
+    "subcategory": "backtest integrity / validation",
+    "language": "Python",
+    "stars": 0,
+    "last_push": "2026-10-03",
+    "license": "MIT",
+    "maintained": "active",
+    "explainer": "Backtest Integrity Guard is a small dependency-free CLI for checking research assumptions before backtest metrics are trusted. It validates OHLCV geometry and timestamps, detects missing or irregular bars, checks signal-close to execution causality, and flags ambiguous same-bar stop/target exits. It can also produce deterministic JSON reports and SHA256 manifests that bind audit results to exact input files. The package is available on PyPI and is designed to sit alongside an existing backtesting engine rather than replace one.",
+    "good_at": "Useful as a lightweight pre-flight integrity layer for custom or framework-based backtests, especially when reproducibility and explicit execution timing matter.",
+    "limitations": "It does not simulate strategies, model fills or costs, or provide exchange calendars; session exceptions must be declared explicitly.",
+    "sources": [
+      "https://github.com/suguobin2021/backtest-integrity-guard",
+      "https://pypi.org/project/backtest-integrity-guard/"
+    ]
   }
 ]
