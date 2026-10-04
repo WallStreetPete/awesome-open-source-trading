@@ -8322,5 +8322,25 @@
     "sources": [
       "https://github.com/HarrierOnChain/Drift-BET"
     ]
+  },
+  {
+    "name": "AxonX",
+    "url": "https://github.com/FlowLLM-AI/AxonX",
+    "section": "ai_agents",
+    "category": "mcp-server",
+    "subcategory": "agent-native quantitative research harness",
+    "language": "Python",
+    "stars": 1,
+    "last_push": "2026-10-04",
+    "license": "Apache-2.0",
+    "maintained": "active",
+    "explainer": "AxonX is an open-source quantitative research harness with plugin-based tasks and CLI, HTTP, MCP, and Studio interfaces. Its runtime tracks task execution, logs, saved artifacts, and task lineage. The Alpha158 plugin implements data processing, factor analysis, LightGBM training, prediction, and TopN backtesting.",
+    "good_at": "Giving researchers and external AI agents a shared interface for running and inspecting quantitative research experiments with traceable artifacts.",
+    "limitations": "Early-stage project without established external adoption; market-data downloads in the Alpha158 demo require a Tushare token, and model-backed agents require separate model configuration.",
+    "sources": [
+      "https://github.com/FlowLLM-AI/AxonX",
+      "https://github.com/FlowLLM-AI/AxonX/tree/main/plugins/a158",
+      "https://flowllm-ai.github.io/AxonX/en/agent/mcp-integration"
+    ]
   }
 ]

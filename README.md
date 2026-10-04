@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-458-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![snapshot](https://img.shields.io/badge/snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-459-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![snapshot](https://img.shields.io/badge/snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -19,7 +19,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 - ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 68 projects
 - 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
-- 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 60 projects
+- 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 61 projects
 - 📊 [Fundamentals, market data & alternative data](#fundamentals-market-data--alternative-data) — 72 projects
 - 📚 [Strategy research papers](#strategy-research-papers) — 113 papers
 - 🧭 [Methodology & caveats](#methodology--caveats)
@@ -733,6 +733,7 @@ servers and evaluation benchmarks. **TradingAgents**, **ai-hedge-fund**, **FinRL
 | [**mcp_massive (formerly mcp_polygon)**](https://github.com/massive-com/mcp_massive) | 391 | Python | 🟢 | Broad, first-party coverage of multi-asset-class market data as MCP tools for any LLM agent. |
 | [**yahoo-finance-mcp**](https://github.com/Alex2Yang97/yahoo-finance-mcp) | 354 | Python | 🟢 | Free, no-API-key market/fundamentals data access for LLM agents, good for prototyping without cost. |
 | [**ibkr-mcp-server (ArjunDivecha)**](https://github.com/ArjunDivecha/ibkr-mcp-server) | 35 | Python | 🟠 | Bringing a full-featured brokerage (multi-account, options, short-selling) to MCP clients, unlike the many minimal IBKR MCP forks. |
+| [**AxonX**](https://github.com/FlowLLM-AI/AxonX) | 1 | Python | 🟢 | Giving researchers and external AI agents a shared interface for running and inspecting quantitative research experiments with traceable artifacts. |
 
 ### Benchmarks
 

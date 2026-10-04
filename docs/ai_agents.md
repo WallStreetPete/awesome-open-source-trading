@@ -250,6 +250,12 @@ One of the more feature-complete of many community Interactive Brokers MCP serve
 ✅ *Good at:* Bringing a full-featured brokerage (multi-account, options, short-selling) to MCP clients, unlike the many minimal IBKR MCP forks.  
 ⚠️ *Limitations:* Unofficial/community-maintained (IBKR itself does not publish an MCP server) and requires a running TWS/IB Gateway; the IBKR MCP ecosystem is fragmented across many near-duplicate small repos of varying quality.
 
+**[AxonX](https://github.com/FlowLLM-AI/AxonX)** · Python · ★ 1 · last push 2026-10-04  
+AxonX is an open-source quantitative research harness with plugin-based tasks and CLI, HTTP, MCP, and Studio interfaces. Its runtime tracks task execution, logs, saved artifacts, and task lineage. The Alpha158 plugin implements data processing, factor analysis, LightGBM training, prediction, and TopN backtesting.
+
+✅ *Good at:* Giving researchers and external AI agents a shared interface for running and inspecting quantitative research experiments with traceable artifacts.  
+⚠️ *Limitations:* Early-stage project without established external adoption; market-data downloads in the Alpha158 demo require a Tushare token, and model-backed agents require separate model configuration.
+
 </details>
 
 ## Benchmarks
