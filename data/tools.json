@@ -881,6 +881,26 @@
     ]
   },
   {
+    "name": "Invokely MCP connector",
+    "url": "https://github.com/estevecastells/invokely-mcp-connector",
+    "section": "ai_agents",
+    "category": "mcp-server",
+    "subcategory": "official statistics MCP connector",
+    "language": "JavaScript",
+    "stars": 0,
+    "last_push": "2026-10-12",
+    "license": "MIT",
+    "maintained": true,
+    "explainer": "This MIT-licensed local stdio adapter connects MCP clients to Invokely's hosted official-statistics service. It discovers the hosted tool schemas and forwards requests; its statistics tools search indicators, resolve places, retrieve values or series, compare places, and rank locations. Results include the period, unit, source, and citation across US states and counties, EU countries and regions, Spanish municipalities, and World Bank country and world indicators. The Free plan includes 500 MCP calls per month and full series history; REST data queries require Builder, Pro, or prepaid credits.",
+    "good_at": "Lets local MCP clients query cited official statistics across supported geographies for macroeconomic context in financial research.",
+    "limitations": "This repository contains the MIT adapter, not the hosted backend; Invokely provides economic statistics rather than market prices or trade execution, and its no-account MCP trial is limited to 25 calls per day per IP.",
+    "sources": [
+      "https://github.com/estevecastells/invokely-mcp-connector",
+      "https://invokely.ai/docs",
+      "https://invokely.ai/pricing"
+    ]
+  },
+  {
     "name": "INVESTOR-BENCH",
     "url": "https://github.com/felis33/INVESTOR-BENCH",
     "section": "ai_agents",

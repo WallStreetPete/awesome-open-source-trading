@@ -250,6 +250,12 @@ One of the more feature-complete of many community Interactive Brokers MCP serve
 ✅ *Good at:* Bringing a full-featured brokerage (multi-account, options, short-selling) to MCP clients, unlike the many minimal IBKR MCP forks.  
 ⚠️ *Limitations:* Unofficial/community-maintained (IBKR itself does not publish an MCP server) and requires a running TWS/IB Gateway; the IBKR MCP ecosystem is fragmented across many near-duplicate small repos of varying quality.
 
+**[Invokely MCP connector](https://github.com/estevecastells/invokely-mcp-connector)** · JavaScript · ★ 0 · last push 2026-10-12  
+This MIT-licensed local stdio adapter connects MCP clients to Invokely's hosted official-statistics service. It discovers the hosted tool schemas and forwards requests; its statistics tools search indicators, resolve places, retrieve values or series, compare places, and rank locations. Results include the period, unit, source, and citation across US states and counties, EU countries and regions, Spanish municipalities, and World Bank country and world indicators. The Free plan includes 500 MCP calls per month and full series history; REST data queries require Builder, Pro, or prepaid credits.
+
+✅ *Good at:* Lets local MCP clients query cited official statistics across supported geographies for macroeconomic context in financial research.  
+⚠️ *Limitations:* This repository contains the MIT adapter, not the hosted backend; Invokely provides economic statistics rather than market prices or trade execution, and its no-account MCP trial is limited to 25 calls per day per IP.
+
 </details>
 
 ## Benchmarks
