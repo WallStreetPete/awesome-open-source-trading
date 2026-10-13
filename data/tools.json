@@ -8322,5 +8322,26 @@
     "sources": [
       "https://github.com/HarrierOnChain/Drift-BET"
     ]
+  },
+  {
+    "name": "matching-engine",
+    "url": "https://github.com/rekurt/matching-engine",
+    "section": "live_trading",
+    "category": "execution-oms",
+    "subcategory": "spot-order-matching",
+    "language": "Rust",
+    "stars": 1,
+    "last_push": "2026-10-10",
+    "license": "MIT",
+    "maintained": "active",
+    "explainer": "A single-node Rust service for matching spot orders with price-time priority. Prices and quantities use fixed-point arithmetic, and clients connect through a binary protocol over TCP or Unix domain sockets. Optional write-ahead logging, snapshots and recovery retain matching decisions when persistence is enabled. The source-only v0.1.0 release includes a Go client, integration examples and operations documentation.",
+    "good_at": "Providing spot-order matching for an execution platform that supplies account and settlement infrastructure.",
+    "limitations": "Account balances, reserved funds, settlement, replication and failover are external, and journals have no online compaction.",
+    "sources": [
+      "https://github.com/rekurt/matching-engine/blob/715358b10ffd94197e92a5c2b238543494edb707/README.md",
+      "https://github.com/rekurt/matching-engine/blob/715358b10ffd94197e92a5c2b238543494edb707/crates/me-book/src/matching.rs",
+      "https://github.com/rekurt/matching-engine/blob/715358b10ffd94197e92a5c2b238543494edb707/crates/me-persist/src/wal.rs",
+      "https://github.com/rekurt/matching-engine/releases/tag/v0.1.0"
+    ]
   }
 ]

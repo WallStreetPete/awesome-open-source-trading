@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-458-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![snapshot](https://img.shields.io/badge/snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-459-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![snapshot](https://img.shields.io/badge/snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -16,7 +16,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 ## Contents
 
 - 🧪 [Backtesting & quant research](#backtesting--quant-research) — 108 projects
-- ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 68 projects
+- ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 69 projects
 - 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
 - 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 60 projects
@@ -291,6 +291,7 @@ Use **NautilusTrader** or **LEAN** when you want a full engine with IBKR adapter
 | [**the0**](https://github.com/alexanderwanyoike/the0) | 432 | TypeScript | 🟢 | Running heterogeneous trading bots (in any language) side-by-side under one orchestration/execution layer without forcing a specific strategy DSL. |
 | [**Hummingbot Dashboard**](https://github.com/hummingbot/dashboard) | 367 | Python | 🟢 | Visual configuration/monitoring layer for Hummingbot strategies and live bot fleets. |
 | [**hummingbot-api**](https://github.com/hummingbot/hummingbot-api) | 142 | Python | 🟢 | Centralized management/monitoring of many Hummingbot instances, useful for running several strategies or markets in parallel. |
+| [**matching-engine**](https://github.com/rekurt/matching-engine) | 1 | Rust | 🟢 | Providing spot-order matching for an execution platform that supplies account and settlement infrastructure. |
 
 ### Crypto bots
 
