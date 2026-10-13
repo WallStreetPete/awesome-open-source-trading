@@ -299,7 +299,7 @@ A backend REST API for orchestrating multiple Hummingbot instances -- deploying,
 ⚠️ *Limitations:* Tied to the Hummingbot ecosystem specifically.
 
 **[matching-engine](https://github.com/rekurt/matching-engine)** · Rust · ★ 1 · last push 2026-10-10  
-A single-node Rust service for matching spot orders with price-time priority. Prices and quantities use fixed-point arithmetic, and clients connect through a binary protocol over TCP or Unix domain sockets. Optional write-ahead logging, snapshots and recovery retain matching decisions when persistence is enabled. The source-only v0.1.0 release includes a Go client, integration examples and operations documentation.
+A single-node Rust service for matching spot orders with price-time priority. Prices and quantities use fixed-point arithmetic, and clients connect through a binary protocol over TCP or Unix domain sockets. Optional write-ahead logging, snapshots and recovery retain matching decisions when persistence is enabled. The source-only v0.1.0 release includes a Go client, integration examples and operations documentation. Metadata for this entry was checked on October 13, 2026.
 
 ✅ *Good at:* Providing spot-order matching for an execution platform that supplies account and settlement infrastructure.  
 ⚠️ *Limitations:* Account balances, reserved funds, settlement, replication and failover are external, and journals have no online compaction.
