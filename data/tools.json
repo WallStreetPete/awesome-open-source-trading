@@ -8322,5 +8322,23 @@
     "sources": [
       "https://github.com/HarrierOnChain/Drift-BET"
     ]
+  },
+  {
+    "name": "OpenBacktesting",
+    "url": "https://github.com/lucidcog/openbacktesting",
+    "section": "backtesting",
+    "category": "backtesting-engine",
+    "language": "Python",
+    "stars": 1,
+    "last_push": "2026-10-14",
+    "license": "Apache-2.0",
+    "maintained": "active",
+    "explainer": "OpenBacktesting is a Python framework for single-asset historical backtesting. Strategies run bar by bar and expose trades and pandas-based equity and performance statistics for inspection. It includes technical indicators and parameter optimization through grid search or an optional SAMBO backend. This entry was checked on 2026-10-14; the public repository was created on 2026-10-12.",
+    "good_at": "Inspecting individual historical strategy runs and comparing parameter settings in Python.",
+    "limitations": "Early-stage project with a short public track record; it does not provide live execution or a multi-asset portfolio account.",
+    "sources": [
+      "https://github.com/lucidcog/openbacktesting",
+      "https://docs.openbacktesting.com/"
+    ]
   }
 ]

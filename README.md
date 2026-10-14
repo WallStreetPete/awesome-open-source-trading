@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-458-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![snapshot](https://img.shields.io/badge/snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-459-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![snapshot](https://img.shields.io/badge/snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -15,7 +15,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 
 ## Contents
 
-- 🧪 [Backtesting & quant research](#backtesting--quant-research) — 108 projects
+- 🧪 [Backtesting & quant research](#backtesting--quant-research) — 109 projects
 - ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 68 projects
 - 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
@@ -120,6 +120,7 @@ If you want the same strategy code to run in backtest and live, start with **Nau
 | [**antback**](https://github.com/ts-kontakt/antback) | 16 | Python | 🟢 | Good for users who want a small, transparent, easy-to-read backtesting core rather than a large opinionated framework. |
 | [**Planar.jl**](https://github.com/BubbleParticles/Planar.jl) | 11 | Julia | 🟢 | Best current option for Julia-native crypto trading with real backtest/paper/live code-sharing and CCXT-based exchange connectivity. |
 | [**yabte (Yet Another BackTesting Engine)**](https://github.com/bsdz/yabte) | 7 | Jupyter Notebook | 🟢 | Fine for very simple multi-asset backtests where a minimal, easy-to-read codebase is preferred over a full-featured framework. |
+| [**OpenBacktesting**](https://github.com/lucidcog/openbacktesting) | 1 | Python | 🟢 | Inspecting individual historical strategy runs and comparing parameter settings in Python. |
 
 ### Research platforms
 
