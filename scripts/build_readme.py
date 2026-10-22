@@ -185,14 +185,14 @@ def main() -> None:
         "backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data", "",
         f"![projects](https://img.shields.io/badge/projects-{len(TOOLS)}-2ea44f)"
         f" ![papers](https://img.shields.io/badge/papers-{len(PAPERS)}-8a2be2)"
-        f" ![snapshot](https://img.shields.io/badge/snapshot-{SNAPSHOT.replace(' ', '%20')}-blue)"
+        f" ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-{SNAPSHOT.replace(' ', '%20')}-blue)"
         " ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)", "",
         "</div>", "",
         "Every project has a short explainer, what it is good at, and its limitations. Every paper lists its strategy, "
         "the return **as reported by the authors**, whether costs and out-of-sample testing were included, and how to "
         "recreate it. Full explainers and recreation notes are in [`docs/`](docs); machine-readable data is in [`data/`](data).", "",
-        "> **Status legend:** 🟢 active · 🟡 slow · 🟠 stale · 🔴 archived · ⚪ unknown. Stars and activity are a "
-        f"snapshot from {SNAPSHOT}.", "",
+        "> **Status legend:** 🟢 active · 🟡 slow · 🟠 stale · 🔴 archived · ⚪ unknown. The original stars and activity "
+        f"snapshot is from {SNAPSHOT}; later additions may use separately dated metadata, recorded in their full explainers.", "",
         "## Contents", "",
     ]
     for key, emoji, title, *_ in SECTIONS:
@@ -270,8 +270,9 @@ def main() -> None:
     L += ["[⬆ back to top](#contents)", ""]
 
     L += ["## Methodology & caveats", "",
-          f"- Compiled in {SNAPSHOT} from GitHub (search, API metadata and curated lists such as awesome-quant, "
-          "awesome-systematic-trading and awesome-quant-ai), public web and social search, and arXiv, SSRN and journal pages.",
+          f"- Original dataset compiled in {SNAPSHOT} from GitHub (search, API metadata and curated lists such as awesome-quant, "
+          "awesome-systematic-trading and awesome-quant-ai), public web and social search, and arXiv, SSRN and journal pages. "
+          "Later additions may use separately dated metadata, recorded in their full explainers.",
           "- Star counts, last-push dates and maintenance status are point-in-time. Popular does not mean mature: several 2026 AI "
           "repos show hype-driven star growth.",
           "- Paper returns are reported, not reproduced. “Net of costs” and “OOS” reflect what each paper states "
