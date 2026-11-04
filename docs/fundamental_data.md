@@ -318,6 +318,12 @@ Part of the well-regarded 'Tidy Finance' teaching/research ecosystem, this clien
 ✅ *Good at:* Polars-native (rather than pandas) financial data workflows, useful for performance-sensitive fundamentals pipelines.  
 ⚠️ *Limitations:* Smaller community than fmp-data; still requires an FMP API key.
 
+**[SiftingIO Python SDK](https://github.com/SiftingIO/sdk-python)** · Python · ★ 2 · last push 2026-10-21  
+The official Python client for SiftingIO’s hosted market-data API. Synchronous and asynchronous clients retrieve real-time data through REST or WebSocket and historical OHLCV through REST for US stocks and ETFs, forex, commodities and crypto. The client includes cursor pagination, request retries and WebSocket reconnection. SDK code is MIT-licensed; the service and underlying market data have separate access and licence terms.
+
+✅ *Good at:* Reading market prices and historical bars into Python notebooks, research scripts and application pipelines using a documented client.  
+⚠️ *Limitations:* An account and API key are required; the limited free plan and paid plans have request and usage limits, and instrument history and granularity vary.
+
 **[fmp-wrapper](https://github.com/cccdenhart/fmp-wrapper)** · Python · ★ 0 · last push 2020-05-01  
 One of the earlier simple Python wrappers for the Financial Modeling Prep API, returning results as pandas DataFrames.
 
