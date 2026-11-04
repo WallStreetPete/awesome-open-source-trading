@@ -653,6 +653,12 @@ tidyquant bridges financial analysis and the tidyverse, bringing together market
 ✅ *Good at:* Best for R users who want financial data retrieval and standard performance analytics in an idiomatic, pipe-friendly tidyverse workflow.  
 ⚠️ *Limitations:* Not a backtesting engine itself; it's a data/analytics convenience layer that still needs quantstrat or custom logic for actual strategy simulation.
 
+**[Backtest Doctor](https://github.com/suguobin2021/backtest-doctor)** · Python · ★ 0 · last push 2026-11-03  
+Backtest Doctor is a Python command-line tool for offline structural audits of exported OHLCV and trade-summary CSVs. It checks candle geometry, duplicate or inconsistent timestamps, declared signal-to-fill ordering, and sensitivity of reported trade returns to additional hypothetical transaction costs. Reports contain aggregate JSON or self-contained HTML findings, and the package has no runtime dependencies. Its experimental CSV adapters accept limited settled-trade summaries from backtesting.py, vectorbt and a manually prepared Freqtrade subset; it does not run those engines.
+
+✅ *Good at:* Useful as a low-dependency offline preflight check of exported backtest evidence and a deterministic CI diagnostic with public synthetic fixtures.  
+⚠️ *Limitations:* Does not inspect strategy source, establish point-in-time causality, reconstruct real fillability or account NAV, or validate investment performance; native Freqtrade ZIP archives are unsupported.
+
 </details>
 
 ## Lists & other
