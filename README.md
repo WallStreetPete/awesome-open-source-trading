@@ -759,6 +759,7 @@ servers and evaluation benchmarks. **TradingAgents**, **ai-hedge-fund**, **FinRL
 | Project | ★ | Lang | | What it's good at |
 |---|---:|---|:-:|---|
 | [**QuantDinger**](https://github.com/OpenByteInc/QuantDinger) | 11.9k | Python | 🟢 | Using Jev not as the whole decision engine but as a lightweight, auditable sanity-check gate layered on top of an existing strategy/backtesting platform — arguably a more defensible pattern than letting Jev decide trades outright. |
+| [**FastTrade AI**](https://github.com/kingabzpro/FastTrade-AI) | 0 | Python | 🟢 | Signal-only Jev research workspace: typed BUY/HOLD/SELL preferences behind a deterministic risk engine, budgeted batch API, and reproducible checksummed backtests; never places orders. |
 | [**jev-trader (jarrodwatts)**](https://github.com/jarrodwatts/jev-trader) | 1.6k | TypeScript | 🟢 | Demonstrating Jev's core pitch — sub-second, typed, probabilistic decisions — in a genuinely latency-sensitive trading loop (one decision per ~300ms blockchain block). |
 | [**awesome-typesafe**](https://github.com/AbdelStark/awesome-typesafe) | 404 | CSS | 🟢 | The best single starting point for tracking the fast-growing Jev/TypeSafe ecosystem, including its finance/trading applications. |
 | [**jev-trade (aowang-ai)**](https://github.com/aowang-ai/jev-trade) | 57 | TypeScript | 🟢 | Extending the single-market Jev-trading pattern to a multi-asset, isolated-risk sleeve structure. |
