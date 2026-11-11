@@ -8400,5 +8400,24 @@
       "https://github.com/lucidcog/openbacktesting",
       "https://docs.openbacktesting.com/"
     ]
+  },
+  {
+    "name": "BetterTradingAgents",
+    "url": "https://github.com/kingabzpro/BetterTradingAgents",
+    "section": "ai_agents",
+    "category": "llm-multi-agent",
+    "subcategory": "multi-agent stock research and paper trading",
+    "language": "Python",
+    "stars": 33,
+    "last_push": "2026-10-31",
+    "license": "MIT",
+    "maintained": "active",
+    "explainer": "BetterTradingAgents is a multi-agent application for stock research. Specialist analysts and bull and bear agents contribute to a decision with risk controls. It includes a web interface, walk-forward backtesting and paper orders through Alpaca.",
+    "good_at": "Combining a stock research workflow with backtests and risk-gated paper trading.",
+    "limitations": "Paper trading only; model and market data access can involve external providers and costs.",
+    "sources": [
+      "https://github.com/kingabzpro/BetterTradingAgents",
+      "https://github.com/kingabzpro/BetterTradingAgents/blob/main/LICENSE"
+    ]
   }
 ]

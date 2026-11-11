@@ -80,6 +80,12 @@ StockSim is an open-source simulation platform purpose-built to evaluate LLMs in
 ✅ *Good at:* Giving LLM trading-agent researchers a dual-mode (live order book + fast historical) evaluation harness rather than a single fixed backtest.  
 ⚠️ *Limitations:* Small, academic-scale project with limited recent activity and adoption compared to TradingAgents/StockAgent.
 
+**[BetterTradingAgents](https://github.com/kingabzpro/BetterTradingAgents)** · Python · ★ 33 · last push 2026-10-31  
+BetterTradingAgents is a multi-agent application for stock research. Specialist analysts and bull and bear agents contribute to a decision with risk controls. It includes a web interface, walk-forward backtesting and paper orders through Alpaca.
+
+✅ *Good at:* Combining a stock research workflow with backtests and risk-gated paper trading.  
+⚠️ *Limitations:* Paper trading only; model and market data access can involve external providers and costs.
+
 **[Vibe-Trade (spyderweb47)](https://github.com/spyderweb47/Vibe-Trade)** · TypeScript · ★ 15 · last push 2026-04-22  
 A single-install (pipx) AI trading agent built around a 'drop a SKILL.md, declare your tools, ship' pattern, bundling a planner, pattern detection, strategy backtesting, 9 LLM providers, multi-agent simulation and a Next.js web UI.
 

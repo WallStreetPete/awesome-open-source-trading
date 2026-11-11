@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-462-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-463-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -19,7 +19,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 - ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 70 projects
 - 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
-- 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 61 projects
+- 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 62 projects
 - 📊 [Fundamentals, market data & alternative data](#fundamentals-market-data--alternative-data) — 72 projects
 - 📚 [Strategy research papers](#strategy-research-papers) — 113 papers
 - 🧭 [Methodology & caveats](#methodology--caveats)
@@ -676,6 +676,7 @@ servers and evaluation benchmarks. **TradingAgents**, **ai-hedge-fund**, **FinRL
 | [**vibetrading (VibeTradingLabs)**](https://github.com/VibeTradingLabs/vibetrading) | 93 | Python | 🟠 | A lighter-weight alternative implementation of the natural-language-to-strategy pattern with exchange deployment hooks. |
 | [**FinCon**](https://github.com/The-FinAI/FinCon) | 67 | n/a | 🟠 | The paper's manager/analyst/risk-control hierarchy design is widely cited as a template for financial multi-agent systems. |
 | [**StockSim**](https://github.com/harrypapadakis/StockSim) | 38 | Python | 🟠 | Giving LLM trading-agent researchers a dual-mode (live order book + fast historical) evaluation harness rather than a single fixed backtest. |
+| [**BetterTradingAgents**](https://github.com/kingabzpro/BetterTradingAgents) | 33 | Python | 🟢 | Combining a stock research workflow with backtests and risk-gated paper trading. |
 | [**Vibe-Trade (spyderweb47)**](https://github.com/spyderweb47/Vibe-Trade) | 15 | TypeScript | 🟠 | Packaging a full agentic trading stack (planner + backtester + multi-provider LLM + UI) into one easy local install. |
 | [**AlphaAgentsV2**](https://github.com/LAKSHYAJAIN16/AlphaAgentsV2) | 1 | Python | 🟢 | The only readily available runnable approximation of BlackRock's published multi-agent stock-selection design. |
 
