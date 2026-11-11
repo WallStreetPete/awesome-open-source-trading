@@ -8459,5 +8459,23 @@
       "https://sifting.io/docs",
       "https://sifting.io/pricing"
     ]
+  },
+  {
+    "name": "FastTrade AI",
+    "url": "https://github.com/kingabzpro/FastTrade-AI",
+    "section": "ai_agents",
+    "category": "uses-jev",
+    "subcategory": "signal-only US-equity research dashboard with Jev as default model",
+    "language": "Python",
+    "stars": 1,
+    "last_push": "2026-11-07",
+    "license": "Apache-2.0",
+    "maintained": "active",
+    "explainer": "A local research dashboard and CLI for US equities that turns Alpaca IEX or Yahoo Finance candles into typed BUY/HOLD/SELL preferences, with Jev as the default decision model and other providers selectable. An optional deterministic risk engine checks proposed trades against user-supplied portfolio limits, and paper trades are simulated in the browser. The repository publishes checksummed backtest artifacts with reality checks, CSCV probability of backtest overfitting and deflated Sharpe ratios. It never places orders.",
+    "good_at": "Signal-only Jev research with a deterministic risk gate and reproducible, overfitting-aware backtest reporting.",
+    "limitations": "Days-old, low-star project; its own published Jan–Jun 2026 backtest trails SPY buy-and-hold, and model requests can incur API charges.",
+    "sources": [
+      "https://github.com/kingabzpro/FastTrade-AI"
+    ]
   }
 ]

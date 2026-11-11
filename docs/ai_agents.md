@@ -366,6 +366,12 @@ A Python redesign of the Jev-trader concept as a 24/7 market-making system, stru
 ✅ *Good at:* A more granular decomposition of a trading decision into several narrow, independently-calibrated Jev judgments rather than one monolithic call.  
 ⚠️ *Limitations:* Single-star, days-old, unverified project.
 
+**[FastTrade AI](https://github.com/kingabzpro/FastTrade-AI)** · Python · ★ 1 · last push 2026-11-07  
+A local research dashboard and CLI for US equities that turns Alpaca IEX or Yahoo Finance candles into typed BUY/HOLD/SELL preferences, with Jev as the default decision model and other providers selectable. An optional deterministic risk engine checks proposed trades against user-supplied portfolio limits, and paper trades are simulated in the browser. The repository publishes checksummed backtest artifacts with reality checks, CSCV probability of backtest overfitting and deflated Sharpe ratios. It never places orders.
+
+✅ *Good at:* Signal-only Jev research with a deterministic risk gate and reproducible, overfitting-aware backtest reporting.  
+⚠️ *Limitations:* Days-old, low-star project; its own published Jan–Jun 2026 backtest trails SPY buy-and-hold, and model requests can incur API charges.
+
 **[jev-crypto-scout](https://github.com/yasdelayu/jev-crypto-scout)** · Python · ★ 0 · last push 2026-09-20  
 A crypto screening tool that combines code-computed quant signals (from CoinGecko) with Jev-based news judgment (sentiment/catalyst/confirmed classification) — explicitly described by its author as screening, 'not a trading bot', a more conservative use of Jev than the direct-execution projects above.
 

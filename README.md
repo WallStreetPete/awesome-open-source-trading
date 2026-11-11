@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-465-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-466-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -19,7 +19,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 - ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 70 projects
 - 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
-- 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 62 projects
+- 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 63 projects
 - 📊 [Fundamentals, market data & alternative data](#fundamentals-market-data--alternative-data) — 73 projects
 - 📚 [Strategy research papers](#strategy-research-papers) — 113 papers
 - 🧭 [Methodology & caveats](#methodology--caveats)
@@ -769,6 +769,7 @@ servers and evaluation benchmarks. **TradingAgents**, **ai-hedge-fund**, **FinRL
 | [**jev-trade (aowang-ai)**](https://github.com/aowang-ai/jev-trade) | 57 | TypeScript | 🟢 | Extending the single-market Jev-trading pattern to a multi-asset, isolated-risk sleeve structure. |
 | [**jev_stock**](https://github.com/sosopop/jev_stock) | 11 | Python | 🟢 | Applying Jev's typed-judgment pattern to a non-US, non-crypto market (Hong Kong equities). |
 | [**jev-trader (buberlo)**](https://github.com/buberlo/jev-trader) | 1 | Python | 🟢 | A more granular decomposition of a trading decision into several narrow, independently-calibrated Jev judgments rather than one monolithic call. |
+| [**FastTrade AI**](https://github.com/kingabzpro/FastTrade-AI) | 1 | Python | 🟢 | Signal-only Jev research with a deterministic risk gate and reproducible, overfitting-aware backtest reporting. |
 | [**jev-crypto-scout**](https://github.com/yasdelayu/jev-crypto-scout) | 0 | Python | 🟢 | Illustrating a lower-risk application pattern: Jev as a news-classification filter feeding a human/other-system decision, rather than an autonomous executor. |
 | [**jev-signals-lab**](https://github.com/Gamma-Software/jev-signals-lab) | 0 | HTML | 🟢 | Exploring how many independent, narrow Jev judgments can be combined per snapshot into a richer signal set. |
 | [**jev-typesafe-real-financial-use-cases**](https://github.com/IslamBaraka90/jev-typesafe-real-financial-use-cases) | 0 | JavaScript | 🟢 | A broad, graded sanity-check suite for evaluating Jev's reliability across many discrete financial judgment types before trusting it in a live system. |
