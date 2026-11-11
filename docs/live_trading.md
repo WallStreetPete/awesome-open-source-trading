@@ -338,6 +338,12 @@ A CCXT-inspired unified API specifically for prediction markets (Polymarket, Kal
 ✅ *Good at:* Writing venue-agnostic execution code across Polymarket/Kalshi-style prediction markets.  
 ⚠️ *Limitations:* Prediction-market specific, not applicable to traditional equities/crypto spot-futures execution.
 
+**[Siebly exchange SDKs (binance, bybit-api, okx-api, …)](https://github.com/sieblyio/binance)** · TypeScript · ★ 933 · last push 2026-11-09  
+A family of exchange-specific Node.js/TypeScript SDKs maintained under the sieblyio organisation, covering Binance, Bybit, OKX, Bitget, Gate, KuCoin, Coinbase, Kraken, HTX and Hyperliquid. Each package wraps that venue's REST, WebSocket and WebSocket-API surfaces with request signing, heartbeats, automatic reconnect and resubscribe, and full type declarations. Star counts vary widely by package (binance ≈930, bybit-api ≈350, okx-api ≈170, the rest under 100).
+
+✅ *Good at:* Using one venue's full native API, including WebSocket streams and newer endpoints, from a Node/TypeScript bot.  
+⚠️ *Limitations:* One package per exchange with no unified cross-venue interface like ccxt; Node/TypeScript only.
+
 **[cassandre-trading-bot](https://github.com/cassandre-tech/cassandre-trading-bot)** · Java · ★ 661 · last push 2025-03-01  
 A Spring Boot starter for building Java crypto trading bots, handling exchange connections, accounts, orders, trades, and positions so developers can focus purely on strategy logic within the familiar Spring ecosystem.
 

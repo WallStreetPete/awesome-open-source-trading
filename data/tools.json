@@ -8477,5 +8477,26 @@
     "sources": [
       "https://github.com/kingabzpro/FastTrade-AI"
     ]
+  },
+  {
+    "name": "Siebly exchange SDKs (binance, bybit-api, okx-api, …)",
+    "url": "https://github.com/sieblyio/binance",
+    "section": "live_trading",
+    "category": "crypto-bot",
+    "subcategory": "exchange-specific-sdk",
+    "language": "TypeScript",
+    "stars": 933,
+    "last_push": "2026-11-09",
+    "license": "MIT",
+    "maintained": "active",
+    "explainer": "A family of exchange-specific Node.js/TypeScript SDKs maintained under the sieblyio organisation, covering Binance, Bybit, OKX, Bitget, Gate, KuCoin, Coinbase, Kraken, HTX and Hyperliquid. Each package wraps that venue's REST, WebSocket and WebSocket-API surfaces with request signing, heartbeats, automatic reconnect and resubscribe, and full type declarations. Star counts vary widely by package (binance ≈930, bybit-api ≈350, okx-api ≈170, the rest under 100).",
+    "good_at": "Using one venue's full native API, including WebSocket streams and newer endpoints, from a Node/TypeScript bot.",
+    "limitations": "One package per exchange with no unified cross-venue interface like ccxt; Node/TypeScript only.",
+    "sources": [
+      "https://github.com/sieblyio",
+      "https://github.com/sieblyio/binance",
+      "https://github.com/sieblyio/bybit-api",
+      "https://sieblyio.github.io/docs/"
+    ]
   }
 ]

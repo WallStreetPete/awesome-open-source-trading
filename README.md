@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-466-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-467-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -16,7 +16,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 ## Contents
 
 - 🧪 [Backtesting & quant research](#backtesting--quant-research) — 110 projects
-- ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 70 projects
+- ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 71 projects
 - 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
 - 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 63 projects
@@ -306,6 +306,7 @@ Use **NautilusTrader** or **LEAN** when you want a full engine with IBKR adapter
 | [**Superalgos**](https://github.com/Superalgos/Superalgos) | 5.7k | JavaScript | 🟢 | Non-coder-friendly, visual strategy design and deployment for crypto trading, with an integrated data pipeline. |
 | [**Krypto/opentrader**](https://github.com/Open-Trader/opentrader) | 2.9k | TypeScript | 🟡 | DCA/grid strategy automation for crypto with a polished self-hosted web UI, appealing to a TypeScript/Node-oriented team. |
 | [**pmxt (CCXT for prediction markets)**](https://github.com/pmxt-dev/pmxt) | 2.2k | TypeScript | 🟢 | Writing venue-agnostic execution code across Polymarket/Kalshi-style prediction markets. |
+| [**Siebly exchange SDKs (binance, bybit-api, okx-api, …)**](https://github.com/sieblyio/binance) | 933 | TypeScript | 🟢 | Using one venue's full native API, including WebSocket streams and newer endpoints, from a Node/TypeScript bot. |
 | [**cassandre-trading-bot**](https://github.com/cassandre-tech/cassandre-trading-bot) | 661 | Java | 🟡 | Java/Spring-native crypto bot development for teams already standardized on the Spring stack. |
 
 ### Market making
