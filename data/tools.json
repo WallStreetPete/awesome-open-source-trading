@@ -8439,5 +8439,25 @@
       "https://pypi.org/project/backtest-doctor/0.4.1/",
       "https://github.com/suguobin2021/backtest-doctor/releases/tag/v0.4.1"
     ]
+  },
+  {
+    "name": "SiftingIO Python SDK",
+    "url": "https://github.com/SiftingIO/sdk-python",
+    "section": "fundamental_data",
+    "category": "market-data-sdk",
+    "subcategory": "multi-asset REST and WebSocket client",
+    "language": "Python",
+    "stars": 2,
+    "last_push": "2026-10-21",
+    "license": "MIT",
+    "maintained": "active",
+    "explainer": "The official Python client for SiftingIO’s hosted market-data API. Synchronous and asynchronous clients retrieve real-time data through REST or WebSocket and historical OHLCV through REST for US stocks and ETFs, forex, commodities and crypto. The client includes cursor pagination, request retries and WebSocket reconnection. SDK code is MIT-licensed; the service and underlying market data have separate access and licence terms.",
+    "good_at": "Reading market prices and historical bars into Python notebooks, research scripts and application pipelines using a documented client.",
+    "limitations": "An account and API key are required; the limited free plan and paid plans have request and usage limits, and instrument history and granularity vary.",
+    "sources": [
+      "https://github.com/SiftingIO/sdk-python",
+      "https://sifting.io/docs",
+      "https://sifting.io/pricing"
+    ]
   }
 ]

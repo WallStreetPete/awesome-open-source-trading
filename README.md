@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-464-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-465-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -20,7 +20,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 - 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
 - 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 62 projects
-- 📊 [Fundamentals, market data & alternative data](#fundamentals-market-data--alternative-data) — 72 projects
+- 📊 [Fundamentals, market data & alternative data](#fundamentals-market-data--alternative-data) — 73 projects
 - 📚 [Strategy research papers](#strategy-research-papers) — 113 papers
 - 🧭 [Methodology & caveats](#methodology--caveats)
 - 🤝 [Contributing](#contributing)
@@ -881,6 +881,7 @@ SEC filings, valuation, transcripts, ownership, market-data SDKs, tick storage, 
 | [**QuantRocket client**](https://github.com/quantrocket-llc/quantrocket-client) | 32 | Python | 🟢 | Unifying fundamentals (via Sharadar) with price data and backtesting in a single self-hosted platform. |
 | [**fmp-data**](https://github.com/MehdiZare/fmp-data) | 30 | Python | 🟢 | One of the most complete and current FMP wrappers, with fundamentals as a first-class module rather than an afterthought. |
 | [**py-fmpapi**](https://github.com/tidy-finance/py-fmpapi) | 5 | Python | 🟢 | Polars-native (rather than pandas) financial data workflows, useful for performance-sensitive fundamentals pipelines. |
+| [**SiftingIO Python SDK**](https://github.com/SiftingIO/sdk-python) | 2 | Python | 🟢 | Reading market prices and historical bars into Python notebooks, research scripts and application pipelines using a documented client. |
 | [**fmp-wrapper**](https://github.com/cccdenhart/fmp-wrapper) | 0 | Python | 🟠 | Minimal, easy-to-read reference implementation if you want to write your own FMP client from scratch. |
 
 ### Tick & time-series storage
