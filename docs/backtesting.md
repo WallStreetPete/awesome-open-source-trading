@@ -381,6 +381,12 @@ YABTE is a small, straightforwardly named Python backtesting engine offering a s
 ✅ *Good at:* Fine for very simple multi-asset backtests where a minimal, easy-to-read codebase is preferred over a full-featured framework.  
 ⚠️ *Limitations:* Extremely small community/adoption and limited documentation.
 
+**[OpenBacktesting](https://github.com/lucidcog/openbacktesting)** · Python · ★ 1 · last push 2026-10-14  
+OpenBacktesting is a Python framework for single-asset historical backtesting. Strategies run bar by bar and expose trades and pandas-based equity and performance statistics for inspection. It includes technical indicators and parameter optimization through grid search or an optional SAMBO backend. This entry was checked on 2026-10-14; the public repository was created on 2026-10-12.
+
+✅ *Good at:* Inspecting individual historical strategy runs and comparing parameter settings in Python.  
+⚠️ *Limitations:* Early-stage project with a short public track record; it does not provide live execution or a multi-asset portfolio account.
+
 </details>
 
 ## Research platforms
