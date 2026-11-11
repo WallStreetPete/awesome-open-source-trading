@@ -8419,5 +8419,25 @@
       "https://github.com/kingabzpro/BetterTradingAgents",
       "https://github.com/kingabzpro/BetterTradingAgents/blob/main/LICENSE"
     ]
+  },
+  {
+    "name": "Backtest Doctor",
+    "url": "https://github.com/suguobin2021/backtest-doctor",
+    "section": "backtesting",
+    "category": "data-tooling",
+    "subcategory": "offline backtest-export integrity auditing",
+    "language": "Python",
+    "stars": 0,
+    "last_push": "2026-11-03",
+    "license": "MIT",
+    "maintained": "active",
+    "explainer": "Backtest Doctor is a Python command-line tool for offline structural audits of exported OHLCV and trade-summary CSVs. It checks candle geometry, duplicate or inconsistent timestamps, declared signal-to-fill ordering, and sensitivity of reported trade returns to additional hypothetical transaction costs. Reports contain aggregate JSON or self-contained HTML findings, and the package has no runtime dependencies. Its experimental CSV adapters accept limited settled-trade summaries from backtesting.py, vectorbt and a manually prepared Freqtrade subset; it does not run those engines.",
+    "good_at": "Useful as a low-dependency offline preflight check of exported backtest evidence and a deterministic CI diagnostic with public synthetic fixtures.",
+    "limitations": "Does not inspect strategy source, establish point-in-time causality, reconstruct real fillability or account NAV, or validate investment performance; native Freqtrade ZIP archives are unsupported.",
+    "sources": [
+      "https://github.com/suguobin2021/backtest-doctor",
+      "https://pypi.org/project/backtest-doctor/0.4.1/",
+      "https://github.com/suguobin2021/backtest-doctor/releases/tag/v0.4.1"
+    ]
   }
 ]
