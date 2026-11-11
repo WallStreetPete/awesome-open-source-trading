@@ -304,6 +304,12 @@ A single-node Rust service for matching spot orders with price-time priority. Pr
 ✅ *Good at:* Providing spot-order matching for an execution platform that supplies account and settlement infrastructure.  
 ⚠️ *Limitations:* Account balances, reserved funds, settlement, replication and failover are external, and journals have no online compaction.
 
+**[Espeon Trader](https://github.com/kangykii/espeon)** · Rust / TypeScript · ★ 1 · last push 2026-09-29  
+Espeon Trader is an experimental Windows desktop workbench for AI-assisted cTrader research. Its Tauri/Rust application combines cTrader Local MCP for account context, Open API for account and symbol metadata plus historical bars, and FIX for quotes and order execution. It also records experiment activity in a canonical event store and provides evidence retrieval across runs. The project is MIT licensed and publishes signed Windows updater artifacts.
+
+✅ *Good at:* Exploring how AI workflows, broker metadata, execution adapters, and auditable experiment records fit together in a local cTrader application.  
+⚠️ *Limitations:* Experimental and cTrader/Windows focused; it is not a trading strategy or a validated trading system, and users should evaluate it on a demo account.
+
 </details>
 
 ## Crypto bots
