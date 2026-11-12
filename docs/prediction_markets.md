@@ -298,6 +298,12 @@ A cross-platform arbitrage tool spanning Kalshi, Polymarket, Limitless Exchange,
 ✅ *Good at:* Rare inclusion of ForecastEx/IBKR alongside the usual crypto-native prediction venues.  
 ⚠️ *Limitations:* Very low visibility/adoption (no stars) and ForecastEx integration requires an IBKR account and its API constraints.
 
+**[pmfees](https://github.com/swaphunt/pmfees)** · Python · ★ 0 · last push 2026-11-12  
+A Python library and command line tool that computes the exact trading fee for an order on Kalshi, Polymarket US and polymarket.com, using each platform's published formula and rounding rule. It uses decimal arithmetic and has no dependencies outside the Python standard library. A break-even helper reports how far the price has to move before a round trip is in profit after the fee on both orders. Each rate carries its as-of date and source URL.
+
+✅ *Good at:* Fee and break-even numbers that match each platform's own rounding, for position sizing or backtests.  
+⚠️ *Limitations:* Covers fees on three venues only, and the rates file has to be updated when a platform changes its fee schedule.
+
 </details>
 
 ## Forecasting agents
