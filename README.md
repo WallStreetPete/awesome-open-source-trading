@@ -5,7 +5,7 @@
 **A curated map of open-source trading software and recent quant strategy research:**  
 backtesting · live execution · Interactive Brokers · Kalshi & Polymarket · options & greeks · AI agents · fundamentals & data
 
-![projects](https://img.shields.io/badge/projects-467-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
+![projects](https://img.shields.io/badge/projects-468-2ea44f) ![papers](https://img.shields.io/badge/papers-113-8a2be2) ![baseline snapshot](https://img.shields.io/badge/baseline_snapshot-September%202026-blue) ![license](https://img.shields.io/badge/license-CC0--1.0-lightgrey)
 
 </div>
 
@@ -17,7 +17,7 @@ Every project has a short explainer, what it is good at, and its limitations. Ev
 
 - 🧪 [Backtesting & quant research](#backtesting--quant-research) — 110 projects
 - ⚡ [Live trading, execution & brokers](#live-trading-execution--brokers) — 71 projects
-- 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 83 projects
+- 🎯 [Prediction markets (Kalshi, Polymarket & more)](#prediction-markets-kalshi-polymarket--more) — 84 projects
 - 📐 [Options, greeks & volatility](#options-greeks--volatility) — 67 projects
 - 🤖 [AI, agents & machine learning](#ai-agents--machine-learning) — 63 projects
 - 📊 [Fundamentals, market data & alternative data](#fundamentals-market-data--alternative-data) — 73 projects
@@ -435,6 +435,7 @@ markets” libraries (**pmxt**, **dr-manhattan**) now fill the gap.
 | [**predmarket**](https://github.com/ashercn97/predmarket) | 95 | Python | 🟢 | Lightweight, Python-native two-venue (Kalshi + Polymarket) unification without the broader multi-venue scope of pmxt. |
 | [**truthlayer**](https://github.com/rohanthomas1202/truthlayer) | 65 | Python | 🟢 | Sophisticated LLM+embedding market-matching approach that addresses the core cross-venue arbitrage challenge of equivalence detection. |
 | [**prediction-market-arb (bogdan-cvs)**](https://github.com/bogdan-cvs/prediction-market-arb) | 0 | Python | 🟢 | Rare inclusion of ForecastEx/IBKR alongside the usual crypto-native prediction venues. |
+| [**pmfees**](https://github.com/swaphunt/pmfees) | 0 | Python | 🟢 | Fee and break-even numbers that match each platform's own rounding, for position sizing or backtests. |
 
 ### Forecasting agents
 
