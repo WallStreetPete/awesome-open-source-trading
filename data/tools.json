@@ -8498,5 +8498,24 @@
       "https://github.com/sieblyio/bybit-api",
       "https://sieblyio.github.io/docs/"
     ]
+  },
+  {
+    "name": "AlphaSift",
+    "url": "https://github.com/ZhuLinsen/alphasift",
+    "section": "ai_agents",
+    "category": "mcp-server",
+    "subcategory": "multi-market quant screening & empirical validation MCP server",
+    "language": "Python",
+    "stars": 573,
+    "last_push": "2026-11-25",
+    "license": "Apache-2.0",
+    "maintained": true,
+    "explainer": "AlphaSift is an open-source multi-market quantitative stock screening CLI, local zero-dependency Web UI workbench, and STDIO JSON-RPC 2.0 MCP server covering 7 equity markets (CN/US/HK/JP/KR/TW/IN). It separates deterministic factor/pattern screening (zero default LLM token cost) from optional BYOK LLM post-ranking with hard code-level risk caps (negative-news cap <=35), and pairs every strategy with public T+1/T+5/T+10 live tracking and purged walk-forward H1->H2 out-of-sample audits.",
+    "good_at": "Zero-dependency local MCP integration (13 read-only tools & 4 resources) plus transparent purged walk-forward validation across 5,577 A-shares and 7 global equity markets.",
+    "limitations": "Read-only research and screening tool — does not provide brokerage order execution or live portfolio OMS, and intraday/tick data is out of scope.",
+    "sources": [
+      "https://github.com/ZhuLinsen/alphasift",
+      "https://alphasift.zhulinsen.tech/"
+    ]
   }
 ]
